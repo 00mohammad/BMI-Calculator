@@ -1,5 +1,7 @@
 # BMI Calculator
 
+[📽 Watch vid](./public/vid/Screenshot%202026-01-08%20020520.png)
+
 A lightweight **BMI (Body Mass Index) calculator** web application that calculates BMI based on your height and weight and displays the result in a modern modal UI. Built using **HTML**, **Tailwind CSS**, and **vanilla JavaScript**.
 
 ---
@@ -32,9 +34,6 @@ Click Calculate
 
 See your BMI result and status in the modal
 ```
-
-🎬 Demo Video
-<video width="400" controls> <source src="./public/vid/Screenshot 2026-01-08 020520.png" type="video/mp4"> Your browser does not support the video tag. </video>
 
 Make sure to place your demo video in the project root or adjust the path
 
