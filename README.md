@@ -37,10 +37,6 @@ See your BMI result and status in the modal
 
 Make sure to place your demo video in the project root or adjust the path
 
-📄 License
-
-This project is licensed under the MIT License.
-Feel free to use, modify, and distribute it.
 
 💡 Notes
 
