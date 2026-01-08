@@ -1,54 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fa-IR" dir="rtl">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BMI Calculator</title>
+  <title> محاسبه وزن</title>
   <link rel="stylesheet" href="./public/css/styles.css" />
 </head>
 
 <body>
-  <h1>BMI Calculator – Body Mass Index</h1>
-
+  <h1>محاسبه BMI - شاخص توده بدنی</h1>
   <article class="bmi-card">
     <div class="input-card">
-      <label for="height">Height (meter)</label>
-      <input type="text" id="height" placeholder="Example: 1.69" />
+      <label for="height"> قد ( متر ) </label>
+      <input type="text" id="height" placeholder="مثال: 1.69" />
     </div>
-
     <div class="input-card">
-      <label for="weight">Weight (kilogram)</label>
-      <input type="text" id="weight" placeholder="Example: 65" />
+      <label for="weight"> وزن ( کیلوگرم ) </label>
+      <input type="text" id="weight" placeholder="مثال: 65" />
     </div>
 
     <footer>
-      <button class="calculate-button">Calculate</button>
+      <button class="calculate-button">محاسبه کن</button>
     </footer>
   </article>
 
   <div class="modal-screen hidden">
     <article class="modal">
       <header>
-        <span>BMI Test Result</span>
+        <span>نتیجه تست BMI</span>
         <button class="close-x-btn">X</button>
       </header>
-
       <main>
         <div class="circle">
           <p class="bmi-en">BMI</p>
-          <p class="bmi-persian">Body Mass Index</p>
+          <p class="bmi-persian">شاخص توده بدنی</p>
           <p class="result"></p>
         </div>
 
         <div class="status-container">
-          <div>Status: <span class="status"></span></div>
+          <div>وضعیت: <span class="status"></span></div>
         </div>
       </main>
-
       <footer>
-        <button class="close">Cancel</button>
-        <button class="continue">Confirm</button>
+        <button class="close">انصراف</button>
+        <button class="continue">تائید</button>
       </footer>
     </article>
   </div>
